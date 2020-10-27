@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-27T11:19:55.520Z" agent="5.0 (Windows)" etag="KfqwHRreURX0PBLlDRKy" version="13.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-27T11:25:51.984Z" agent="5.0 (Windows)" etag="m9BPNzKvYbC0VECEthyK" version="13.8.3" type="github">
   <diagram id="zJ23TMnAwvq2a_0EQiU1" name="Page-1">
-    <mxGraphModel dx="868" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -83,23 +83,14 @@
         <mxCell id="KjAUJOMzIbi_RlOfFQU3-24" value="Give order to chef" style="whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="340" y="660" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="KjAUJOMzIbi_RlOfFQU3-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KjAUJOMzIbi_RlOfFQU3-26" target="KjAUJOMzIbi_RlOfFQU3-28">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KjAUJOMzIbi_RlOfFQU3-26" value="Wait for food to be ready" style="shape=delay;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="350" y="740" width="110" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="KjAUJOMzIbi_RlOfFQU3-27" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KjAUJOMzIbi_RlOfFQU3-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="650" as="sourcePoint" />
-            <mxPoint x="400" y="737" as="targetPoint" />
+            <mxPoint x="400" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KjAUJOMzIbi_RlOfFQU3-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KjAUJOMzIbi_RlOfFQU3-28" target="KjAUJOMzIbi_RlOfFQU3-30">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="KjAUJOMzIbi_RlOfFQU3-28" value="Serve aliens" style="whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
-          <mxGeometry x="345" y="810" width="120" height="50" as="geometry" />
+          <mxGeometry x="340" y="800" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="KjAUJOMzIbi_RlOfFQU3-37" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KjAUJOMzIbi_RlOfFQU3-30" target="KjAUJOMzIbi_RlOfFQU3-36">
           <mxGeometry relative="1" as="geometry" />
@@ -139,6 +130,12 @@
         </mxCell>
         <mxCell id="KjAUJOMzIbi_RlOfFQU3-43" value="End" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="345" y="1300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KjAUJOMzIbi_RlOfFQU3-46" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="KjAUJOMzIbi_RlOfFQU3-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="404.5" y="850" as="sourcePoint" />
+            <mxPoint x="404.5" y="890" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
